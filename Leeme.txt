@@ -1,0 +1,7 @@
+Agenda en la que se selecciona la zona del país en la que está el cliente, posteriormente se selecciona la ciudad
+en la que está y al presionar buscar muestra la información de contacto.
+Genera los select para zona y las ciudades correspondientes.
+
+
+Pendiente: implementar una base de datos con colecciones llamadas datosDeZona y datosDeSedes, y no usar archivos
+de javascript conteniendo la información.

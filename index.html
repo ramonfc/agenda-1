@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Agenda</title>
+
+    <script type="text/javascript" src="js/datosDeZona.js"></script>
+    <script type="text/javascript" src="js/datosDeSede.js"></script>
+    <script type="text/javascript" src="js/generarCiudades.js"></script>
+    <link rel=StyleSheet href="./css/styles.css" type="text/css" media=screen>
+</head>
+
+
+<body>
+    <h1>Agenda</h1>
+
+    <div class="box">
+
+        <form action="" method="POST" id="formulario" onsubmit="return false">
+
+            <label for="zona">Zona:</label>
+            <select id="zonas">
+                    <option value=""></option> 
+                  </select>
+            <br><br>
+
+            <label id="labelCiudades" for="ciudad">Ciudad:</label>
+            <select id="ciudades">
+                         <!--
+                        <option value=""></option>                       
+                        <option value="Bucaramanga">Bucaramanga</option>
+                        <option value="Barrancabermeja">Barrancabermeja</option>
+                        <option value="Yopal">Yopal</option>
+                        <option value="Cucuta">Cúcuta</option>
+                        <option value="Aguachica">Aguachica</option>
+                        -->
+                  </select>
+
+            <br><br>
+
+            <input type="submit" value="Buscar" id="buscar" />
+
+        </form>
+    </div>
+
+
+    <div class="box dashed">
+        <h3>Datos de la Sede</h3>
+        <hr>
+        <p id="p_direccion">
+            Dirección: <span></span>
+        </p>
+
+        <p id="p_barrio">
+            Barrio: <span></span>
+        </p>
+
+        <p id="p_telefonos">
+            Teléfonos: <span></span>
+        </p>
+
+    </div>
+
+</body>
+
+</html>
